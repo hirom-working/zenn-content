@@ -3,7 +3,7 @@ title: "自宅GPUクラスタ（GB10×3）でQwen3.5-397BをClaude Codeのサブ
 emoji: "🖥"
 type: "tech"
 topics: ["llama_cpp", "LLM", "DGX", "ClaudeCode", "自宅サーバー"]
-published: false
+published: true
 ---
 
 自宅にGPUクラスタを構築し、超巨大モデルを運用する。ロマンがありますね。
