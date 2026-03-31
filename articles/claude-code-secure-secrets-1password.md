@@ -1,8 +1,13 @@
 ---
-title: "Claude Codeのシークレット管理を1Passwordで完全統一した話"
-emoji: "🔐"
-type: "tech"
-topics: ["ClaudeCode", "1Password", "セキュリティ", "MCP", "Kubernetes"]
+title: Claude Codeのシークレット管理を1Passwordで統一した話
+emoji: 🔐
+type: tech
+topics:
+  - ClaudeCode
+  - 1Password
+  - セキュリティ
+  - MCP
+  - Kubernetes
 published: true
 ---
 
@@ -87,7 +92,7 @@ stringData:
 - **CLIが優秀**: `op run` で任意のコマンドに環境変数を注入できる
 - **Touch ID / 生体認証**: macOSアプリ連携で認証がシームレス
 - **`op://` URI**: 設定ファイルに参照だけ書ける標準的な仕組み
-- **個人プランでも十分**: $2.99/月で全機能利用可能（Service AccountやConnectは使えないが、個人開発には不要）
+- **個人プランでも十分**: $3.99/月（年払いで割引あり）で全機能利用可能（Service AccountやConnectは使えないが、個人開発には不要）
 
 ### アーキテクチャ
 
